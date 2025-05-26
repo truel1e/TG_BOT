@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO)
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
-r = redis.Redis(host='localhost', port=6379, db=0)
+r = redis.Redis(host='redis', port=6379, db=0)
 
 @dp.message(CommandStart())
 async def send_welcome(message: types.Message):
