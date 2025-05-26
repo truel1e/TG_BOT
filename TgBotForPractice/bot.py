@@ -5,7 +5,7 @@ from aiogram.filters import CommandStart, Command
 import redis
 import datetime
 
-API_TOKEN = '7833498718:AAGOi9r6aHYHRHjoDuqVcCPp7e1Q7Xjr-SE'
+API_TOKEN = 'ВАШ ТОКЕН'
 
 logging.basicConfig(level=logging.INFO)
 
